@@ -1,0 +1,62 @@
+// Override vuetify global vars defaults
+$font-size-root: 16;
+
+$headings: (
+  'h1':(
+    'size': #{60 / $font-size-root}rem,
+    'letter-spacing': #{-1 / $font-size-root}rem,
+    'line-height': #{72 / $font-size-root}rem
+  ),
+  'h2':(
+    'size': #{48 / $font-size-root}rem,
+    'letter-spacing': #{-0.5 / $font-size-root}rem,
+    'line-height': #{56 / $font-size-root}rem
+  ),
+  'h3':(
+    'size': #{40 / $font-size-root}rem,
+    'letter-spacing': #{-0.5 / $font-size-root}rem,
+    'line-height': #{48 / $font-size-root}rem
+  ),
+  'h4':(
+    'size': #{36 / $font-size-root}rem,
+    'letter-spacing': #{-0.5 / $font-size-root}rem,
+    'line-height': #{44 / $font-size-root}rem
+  ),
+  'h5':(
+    'size': #{32 / $font-size-root}rem,
+    'letter-spacing': #{-0.5 / $font-size-root}rem,
+    'line-height': #{34 / $font-size-root}rem
+  ),
+  'h6':(
+    'size': #{28 / $font-size-root}rem,
+    'letter-spacing': #{-0.5 / $font-size-root}rem,
+    'line-height': #{32 / $font-size-root}rem,
+    'weight': 600
+  ),
+  'subtitle-1':(
+    'size': #{20 / $font-size-root}rem,
+    'line-height': #{26 / $font-size-root}rem,
+    'weight': 600
+  ),
+  'subtitle-2':(
+    'size': #{18 / $font-size-root}rem,
+    'line-height': #{22 / $font-size-root}rem,
+    'weight': 600
+  ),
+  'body-1':(
+    'size': #{16 / $font-size-root}rem,
+    'weight': 500
+  ),
+  'body-2':(
+    'size': #{15 / $font-size-root}rem,
+    'weight': 300
+  ),
+  'caption':(
+    'size': #{12 / $font-size-root}rem,
+    'weight': 300
+  ),
+  'overline':(
+    'size': #{10 / $font-size-root}rem,
+    'weight': 400
+  )
+);
